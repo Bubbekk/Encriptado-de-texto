@@ -1,11 +1,13 @@
 *{
-    @import url('Comfortaa');
-    background: #F3F5FC;
+    background-color: #F3F5FC;
     font-family: 'Comfortaa';
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
 }
+
+
+
 
 .logo{
     padding-top: 10px;
@@ -18,18 +20,17 @@ main{
     display: flex;
     margin-bottom: 50px;
     margin-left: 80px;
-    align-items: center;
 } 
 
-tex-area{
+.text-area{
     border: none;
     color: #0A3871;
     margin-top: 90px;
     text-transform: lowercase;
 }
 
-::placeholder {color: #0A3871;}
-.text-area:focus {
+::placeholder { color: #0A3871;}
+.text-area:focus{
     outline: none;
 }
 
@@ -38,6 +39,7 @@ tex-area{
     background-image: url("/img/Muñeco.png");
     background-repeat: no-repeat;
     border: none;
+    border-radius: 24px;
     color: #0A3871;
     margin-left: 98px;
     margin-top: 20px;
@@ -45,7 +47,7 @@ tex-area{
     position: fixed;
 }
 
-.mensaje:focus{
+.mensaje:focus {
     outline: none;
 }
 
@@ -65,23 +67,26 @@ tex-area{
 }
 
 .desencriptar{
-    background-color: #0A3871;
-    border: 1px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
     border-radius: 24px;
-    color: white;
+    color: #0A3871;
     cursor: pointer;
     height: 67px;
+    margin-left: 30px;
     width: 328px;
 }
 
 .copiar{
-    background-color: #0A3871;
-    border: 1px;
+    border: 1px solid #0A3871;
     border-radius: 24px;
-    color: white;
+    color: #0A3871;
     cursor: pointer;
     height: 67px;
-    width: 328px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
 }
 
 .informacion{
