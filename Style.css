@@ -32,20 +32,29 @@ main{
 ::placeholder { color: #0A3871;}
 .text-area:focus{
     outline: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.mensaje{
+.mensaje {
     background: white;
     background-image: url("/img/Muñeco.png");
     background-repeat: no-repeat;
+    background-size: 350px; /* Ajusta el tamaño de la imagen según lo que necesites */
+    background-position: 10px center; /* Posiciona la imagen en el borde izquierdo */
     border: none;
-    border-radius: 24px;
+    border-radius: 16px; /* Menor radio para bordes más sutiles */
     color: #0A3871;
-    margin-left: 98px;
-    margin-top: 20px;
-    padding-left: 20px;
+    margin: 20px; /* Margen uniforme alrededor */
+    padding: 20px; /* Espaciado interno uniforme */
     position: fixed;
+    width: 380px; /* Ajusta el ancho de la tarjeta */
+    max-height: 950px; /* Ajusta la altura máxima de la tarjeta */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* Permite desplazamiento si el contenido es largo */
+    z-index: 1000; /* Asegura que la tarjeta esté encima de otros elementos */
+    margin-left: 415px;
 }
+
 
 .mensaje:focus {
     outline: none;
@@ -54,6 +63,7 @@ main{
 .botones{
     display: flex;
     margin-top: 18px;
+    
 }
 
 .encriptar{
@@ -64,6 +74,7 @@ main{
     cursor: pointer;
     height: 67px;
     width: 328px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .desencriptar{
@@ -75,18 +86,18 @@ main{
     height: 67px;
     margin-left: 30px;
     width: 328px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .copiar{
     border: 1px solid #0A3871;
     border-radius: 24px;
     color: #0A3871;
-    cursor: pointer;
+    margin-top: 630px;
     height: 67px;
-    margin-left: 108px;
-    margin-top: 402px;
-    position: absolute;
-    width: 336px;
+    margin-left: 450px;
+    width: 328px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .informacion{
